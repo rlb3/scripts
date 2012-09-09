@@ -1,0 +1,36 @@
+#!/usr/bin/env perl
+use Mojolicious::Lite;
+
+# Documentation browser under "/perldoc" (this plugin requires Perl 5.10)
+plugin 'pod_renderer';
+
+
+get '/signin' => sub {
+  my $self = shift;
+  
+  my $first_name = $self->param('first_name');
+  my $last_name  = $self->param('last_name');
+  my $password   = $self->param('password');
+  my $email      = $self->param('email');
+
+};
+
+get '/login' => sub {
+  my $self = shift;
+  my $email = $self->param('email') || '';
+  my $pass = $self->param('password') || '';
+};
+
+
+app->start;
+__DATA__
+@@ index.html.ep
+% layout 'default';
+% title 'Welcome';
+Welcome to Mojolicious!
+
+@@ layouts/default.html.ep
+<!doctype html><html>
+  <head><title><%= title %></title></head>
+  <body><%= content %></body>
+</html>

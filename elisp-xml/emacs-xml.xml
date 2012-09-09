@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<note topic="weekend plans">
+  <to userid="1">Tove</to>
+  <from userid="2">Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+  <to userid="3">Bob</to>
+  <from userid="4">Sammy</from>
+  <heading>Alas!</heading>
+  <body>A new week!</body>
+</note>

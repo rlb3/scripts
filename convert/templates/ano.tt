@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <index_values>
+        <drawer>[% drawer %]</drawer>
+        <folder>[% folder %]</folder>
+        <tab>[% tab %]</tab>
+        <f3>[% f3 %]</f3>
+        <f4>[% f4 %]</f4>
+        <f5>[% f5 %]</f5>
+    </index_values>
+    <page>[% page %]</page>
+    <annotation type="text" id="">
+        <info>
+            <attribute name="user">conversion</attribute>
+            <attribute name="date created">[% createtime %]</attribute>
+            <attribute name="date modified">[% lastaccess %]</attribute>
+        </info>
+        <location>
+            <attribute name="x">[% xpos %]</attribute>
+            <attribute name="y">[% ypos %]</attribute>
+        </location>
+        <font>
+            <attribute name="name">Arial</attribute> 
+            <attribute name="color">000000</attribute> 
+            <attribute name="size">16</attribute> 
+            <attribute name="bold">true</attribute> 
+            <attribute name="italic">false</attribute> 
+            <attribute name="underline">false</attribute> 
+         </font>
+         <text>[% data %]</text>
+      </annotation>
+</document>
+           

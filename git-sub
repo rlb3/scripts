@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $sub = shift;
+my $file = shift;
+
+print qx{git blame -L '/^sub ${sub} {/,/^}\$/' $file};
